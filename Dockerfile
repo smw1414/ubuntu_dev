@@ -1,8 +1,8 @@
 FROM ubuntu
 
 # Define working directory.
-RUN mkdir apps
-RUN mkdir /data
+RUN mkdir -p /apps
+RUN mkdir -p /data
 WORKDIR /apps
 
 # Install requirements
