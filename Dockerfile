@@ -17,6 +17,7 @@ RUN apt-get update && \
   alien \
   python-tk \
   vim \
+  aria2 \
   python-pip \
   python-dev \
   build-essential \
