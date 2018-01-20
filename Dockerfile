@@ -3,7 +3,7 @@ FROM ubuntu
 # Define working directory.
 RUN mkdir -p /apps
 RUN mkdir -p /data
-WORKDIR /apps
+WORKDIR /apps  
 
 # Install requirements
 RUN apt-get update && \
